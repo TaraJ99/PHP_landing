@@ -1,0 +1,10 @@
+<a href="index.php">Home</a>
+<a href="./browser/index.php">Browser</a>
+<a href="./hairstyle/index.php">Hairstyle</a>
+<a href="./gamelisters/index.php">Gamelisters</a>
+<a href="./drinks/index.php">Drinks</a>
+<a href="./cats/index.php">Cats</a>
+<a href="./dogs/index.php">Dogs</a>
+<a href="./banks/index.php">Banks</a>
+<a href="./jobs/index.php">Jobs</a>
+<a href="./fruits_vegetable/index.php">Fruits_Vegetable</a>

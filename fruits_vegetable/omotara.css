@@ -1,0 +1,79 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+*{
+ box-sizing: border-box;
+}
+
+header {
+/* background-image: url(./Eat_Healty_Images/Apple.jpg); */
+padding : 10px;
+text-align: center;
+background-repeat: no-repeat;
+background-size: 1200px 400px;
+font-size: 35%;
+color: rgb(24, 46, 212);
+}
+
+nav  {
+float: left;
+width: 30%;
+text-align: center;  
+height: 650px;
+background:rgba(214, 204, 11, 0.773);
+padding: 20px;
+
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70% ;
+background-color: rgb(172, 33, 196);
+height: 650px;
+}
+
+img {
+    border: 1px solid #e18f13;
+    border-radius: 4px;
+    padding: 20px;
+    /* width: 400px;
+    height: 1200px; */
+    /* background-repeat: no-repeat;
+    background-size: 1200px 400px; */
+}
+
+section::after{
+content: "";
+display: table;
+clear: both;
+}  
+
+
+
+
+footer {  
+background-color: rgb(9, 31, 225);
+padding: 10px;
+text-align: center;
+color:rgb(231, 18, 163) ;
+}
+
+@media (max-width: 600px) {
+nav, article  {
+width: 200%;
+height: auto;
+}
+}
+
+
+
+

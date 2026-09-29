@@ -1,0 +1,72 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+*{
+ box-sizing: border-box;
+}
+
+header {
+background-image: url(./animal_scary_images/BannerOkeh.PNG);
+padding : 30px;
+text-align: center;
+font-size: 35%;
+color: rgb(219, 30, 30);
+}
+
+nav  {
+float: left;
+width: 30%;
+text-align: center;  
+height: 650px;
+background:rgb(218, 205, 20, 0.773);
+padding: 20px;
+
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+}
+
+article {
+float: left;
+padding: 20px;
+width: 70% ;
+background-color: rgb(219, 67, 194);
+height: 650px;
+}
+
+img {
+    border: 1px solid #e18f13;
+    border-radius: 4px;
+    padding: 20px;
+    width: 320px;
+    height: 400px;
+}
+
+section::after{
+content: "";
+display: table;
+clear: both;
+}  
+
+footer {  
+background-color: rgb(0, 0, 0);
+padding: 10px;
+text-align: center;
+color:rgb(17, 213, 203) ;
+}
+
+@media (max-width: 600px) {
+nav, article  {
+width: 200%;
+height: auto;
+}
+}
+
+
+
+
